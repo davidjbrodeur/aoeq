@@ -394,60 +394,6 @@ footer>.media {
         justify-content: center;
     }
 
-    .game-card {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .right-column-card {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 80%;
-        padding: 5vw;
-        margin: 5vw;
-    }
-
-    .right-column-card img {
-        width: 100%;
-    }
-
-    .game-card h3 {
-        margin-top: -10vh;
-    }
-
-    input[type="email"],
-    input[type="text"] {
-        width: 35vw;
-    }
-
-    .about {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .three-columns-content {
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
-        padding: 0;
-    }
-
-    .left-column,
-    .middle-column,
-    .right-column {
-        width: 90%;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
-        padding: 0;
-        margin-left: 10vw;
-    }
-
     header>.media {
         display: none;
     }
@@ -459,6 +405,12 @@ footer>.media {
     footer>.media {
         display: flex;
         margin-left: -10vw;
+    }
+
+    section p {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 1rem; 
     }
 
 }
