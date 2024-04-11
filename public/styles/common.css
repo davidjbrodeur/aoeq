@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Pacifico&display=swap');
+
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('../fonts/PressStart2P-vaV7.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Latin_city_01';
+    src: url('../fonts/Jesting.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir.ttc') format('truetype');
+}
+
+@font-face {
+    font-family: 'Cochin';
+    src: url('../fonts/Cochin.ttc') format('truetype');
+}
+
+:root {
+    --title-font: 'Pacifico', cursive;
+    --text-font: 'Gloock', serif;
+    --light-color: rgb(209, 209, 209);
+    --dark-color: rgb(48, 48, 48);
+    --accent-color: rgb(48, 48, 48);
+    --steel-legion-font: 'Press Start 2P', sans-serif;
+    --avenir-font: 'Avenir', sans-serif;
+    --cochin-font: 'Cochin', serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+

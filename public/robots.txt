@@ -1,0 +1,9 @@
+User-Agent: Googlebot
+User-Agent: Bingbot
+User-Agent: Yahoo Slurp
+User-Agent: DuckDuckBot
+
+Disallow:
+
+User-Agent: *
+Disallow: /
